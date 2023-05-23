@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:deeppink;
+    color: white;
+}
+
+header h1{
+    font-family: "troika"; 
+    font-size: 275%;
+    
+   
+}
+
+#cajaPrincipal {
+    padding: 10px 10px;
+    
+}
+
+.cajaTítulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.card h5{
+    color: deeppink;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    color: white;
+}

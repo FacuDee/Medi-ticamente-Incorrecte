@@ -1,0 +1,27 @@
+h1{
+    color: deeppink;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    color: white;
+}
