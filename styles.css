@@ -1,29 +1,32 @@
-body{
+body {
     margin: 0;
     background-color: antiquewhite;
 }
 
-header{
+header {
     height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:deeppink;
+    background-color: deeppink;
     color: white;
 }
 
-header h1{
-    font-family: "troika"; 
-    font-size: 275%; 
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 275%;
 }
 
-span{
-    font-size: 72px;
+span {
+    color: black;
+    font-size: 68px;
+    font-weight: bold;
 }
 
 #cajaPrincipal {
     padding: 10px 10px;
-    
+
 }
 
 .cajaTítulo {
@@ -32,7 +35,7 @@ span{
     align-items: center;
 }
 
-.card{
+.card {
     margin: 0;
     padding: 10px 10px;
 }
@@ -40,20 +43,31 @@ span{
 .card-title a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  .card-title a:hover {
+}
+
+.card-title a:hover {
     text-decoration: none;
     color: inherit;
-  }
-  
-.card h5{
+}
+
+.card h5 {
     color: deeppink;
     font-size: 24px;
     font-weight: bold;
 }
 
-footer{
+.btn-primary {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
     height: 10vh;
     display: flex;
     justify-content: center;
