@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    height: 20vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +14,11 @@ header{
 
 header h1{
     font-family: "troika"; 
-    font-size: 275%;
-    
-   
+    font-size: 275%; 
+}
+
+span{
+    font-size: 72px;
 }
 
 #cajaPrincipal {
